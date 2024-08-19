@@ -1,6 +1,7 @@
 import './styles.css';
 import Header from "../../components/Header";
 import SearchBar from "../../components/SearchBar";
+import Card from "../../components/Card";
 
 export default function Catalog(){
 
@@ -13,7 +14,20 @@ export default function Catalog(){
                 <div className="ct-search-bar-container">
                     <SearchBar />
                 </div>
-                <div className="ct-catalog-cards-container"></div>
+                <div className="ct-catalog-cards-container">
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                </div>
 
             </section>
         </main>
